@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing FavoritesPage should render the favorite page correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingHorizontal": 1,
+      "width": 400,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+        "fontWeight": "600",
+        "marginLeft": 25,
+        "marginTop": 80,
+      }
+    }
+  >
+    Cats I Like
+  </Text>
+  <RCTScrollView
+    data={Array []}
+    extraData={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    testID="favorite-row-0"
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
